@@ -1,5 +1,5 @@
 
-/* Home Page */
+/* Gallery Page */
 
 body {
 	margin: 0px;
@@ -17,23 +17,19 @@ body {
 	width: 100%;
 	height: 100%;
 	background-color: #7c61d5;
-	padding: 0 0 160px 0;
-	background: url(Images/Minecraft-Background2.png) no-repeat;
+	padding: 0 0 100px 0;
+	background: url(Images/Background2.png) no-repeat;
 	background-position: left top;
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 }
-.buttoncontainer {
-	padding: 370px 0 0 0;
-	width: 100%;
-}
-.portfolio {
-	margin: auto;
-	height: 100%;
-	width: 100%;
-	overflow: auto;
-	
+.galcontainer {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 50px 200px 400px 200px;
+	width: 50%;
+	background: white;
 }
 .footer {
 	text-align: center;
@@ -93,116 +89,13 @@ nav ul li {
 	margin: 0px;
 	cursor: pointer;
 }
-.kickstvlogo {
-	display: block;
-    margin-left: auto;
-	margin-right: auto;
-	padding: 200px 0 0 0;
-}
-.mediabuttons {
-	display: inline-block;
-	border-radius: 25px;
-	padding: 20px;
-	width: 160px;
-	height: 60px;
-	cursor: pointer;
-	
-}
-.utube {
-	background: url(Images/Utube-Logo.svg) no-repeat;
-	background-position: left top;
-    background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-}
-.twitter {
-	background: url(Images/Twitter-Logo.svg) no-repeat;
-	background-position: left top;
-    background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-}
-.twitch {
-	background: url(Images/Twitch-Logo.svg) no-repeat;
-	background-position: left top;
-    background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-}
-.gap {
-	display: inline-block;
-	margin: 0 200px;
-}
-.utubelogo {
-	border-radius: 25px;
-    background: url(Images/Utube-Logo.svg) no-repeat;
-    background-position: left top;
-    background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-    padding: 20px; 
-    width: 160px;
-    height: 77px; 
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 250px;
-	cursor: pointer;
-}
-
-/* Portfolio */
-
-.miniportfolio {
+.gallery {
+	margin: 0;
 	text-align: center;
-	margin: 100px 0 0 0;
+	color: #dddddd;
+	font-size: 100px;
 	font-family: archive;
-}
-.video {
-	background: #1e1e1e;
-	margin-left: 100px;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	width: 30%;
-	padding: 0 0 400px 0;
-}
-.text {
-	color: #dddddd;
-	text-align: center
-}
-.picture1 {
-	background: #1e1e1e;
-	width: 700px;
-	height: 400px;
-	float: right;
-	margin-bottom: 100px;
-}
-.image1 {
-	color: #dddddd;
-	text-align: center;
-}
-.picture2 {
-	background: #1e1e1e;
-	width: 700px;
-	height: 400px;
-	float: right;
-	margin-bottom: 100px;
-	clear: both;
-}
-.image2 {
-	color: #dddddd;
-	text-align: center;
-}
-.picture3 {
-	background: #1e1e1e;
-	width: 700px;
-	height: 400px;
-	float: right;
-	margin-bottom: 100px;
-	clear: both;
-}
-.image3 {
-	color: #dddddd;
-	text-align: center;
+	padding-top: 70px;
 }
 
 /* Phone size*/
@@ -238,16 +131,4 @@ nav ul li {
 	.gap {
 		margin: 0;
 	}
-}
-
-/* Gallery page */
-
-.gallery {
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	color: #dddddd;
-	font-size: 60px;
-	font-family: archive;
-	padding-top: 100px;
 }
